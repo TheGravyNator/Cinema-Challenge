@@ -1,0 +1,71 @@
+body {
+    background: #333;
+    line-height: 1.5;
+}
+
+main > h1 {
+    background: rgb(26, 26, 26);
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s ease-in-out all;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking {
+    width: 12em 50%;
+    background: rgb(27, 27, 27);
+    color: #209b2b;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s ease-in-out all;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat-available {
+    width: 12em 50%;
+    background: rgb(0, 53, 20);
+    color: #209b2b;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s ease-in-out all;
+}
+
+.seat-taken {
+    width: 12em 50%;
+    background: rgb(53, 0, 0);
+    color: #9b2020;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: relative;
+    overflow: hidden;
+    transition: 0.2s ease-in-out all;
+}
